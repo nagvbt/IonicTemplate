@@ -44,6 +44,7 @@ export class MyApp {
     this.pages = [
       { title: 'Home', component: HomePage, icon: "home" },
       { title: 'Provider Demos', component: 'ProviderDemosPage', icon: "server" },
+      { title: 'About', component: 'AboutPage', icon: "info-circle" },
 
     ];
   }
