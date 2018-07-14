@@ -1,0 +1,19 @@
+<!-- 
+  View for Provider Demos
+  Author: Nag
+ -->
+
+<ion-header>
+  <ion-navbar>
+    <ion-title>Provider Demos</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+  <ion-list>
+    <button ion-item *ngFor="let p of pages" (click)="openPage(p)">
+      <h2>{{p.title}}</h2>
+    </button>
+  </ion-list>
+</ion-content>
