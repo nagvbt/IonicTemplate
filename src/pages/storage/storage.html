@@ -1,0 +1,21 @@
+<!-- 
+  View for StorageProvider Demo
+  Author: Nag
+ -->
+
+<ion-header>
+  <ion-navbar>
+    <ion-title>StorageProvider Demo</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-item>
+    <ion-label stacked>Enter Value</ion-label>
+    <ion-input type="text" [(ngModel)]="editValue" name="editCtrl"></ion-input>
+  </ion-item>
+
+  <button ion-button color="primary" (click)='set()'>Save</button>
+  <button ion-button color="light" (click)='get()'>Get</button>
+
+</ion-content>
