@@ -9,6 +9,7 @@
     <ion-content>
       <ion-list>
         <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">
+          <i class="fa fa-{{p.icon}}" aria-hidden="true" item-left></i>
           {{p.title}}
         </button>
       </ion-list>
