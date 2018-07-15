@@ -31,7 +31,7 @@ export class ProviderDemosPage {
   populatePageList() {
     this.pages = [
       { title: 'Storage Provider', component: 'StoragePage' },
-      // { title: 'StorageProvider Demo', component: 'StoragePage' },
+      { title: 'LaunchUrl Provider', component: 'LaunchUrlPage' },
     ];
   }
 

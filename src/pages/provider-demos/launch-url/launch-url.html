@@ -1,0 +1,22 @@
+<!-- 
+  View for LaunchUrlProvider Demo
+  Author: Nag
+ -->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>LaunchUrlProvider Demo</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <p>Launch website - InAppBrowser</p>  
+  <button ion-button block color="primary" (click)="launchUrlInAppBrowser()">InAppBrowser Plugin</button>
+
+  <p>Launch website - window.open</p>
+  <button ion-button block color="light" (click)="lauchUrlInSystemBrowser()">System Browser</button>
+  <button ion-button block color="light" (click)="lauchUrlInWebView()">Web View</button>
+  <button ion-button block color="light" (click)="lauchUrlInNativeInAppBrowser()">Native in app Browser</button> 
+</ion-content>
